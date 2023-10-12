@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin-bottom: 0;
+}
+/* use classes */
+.primarydefbtn{
+    color: white;
+    background-color: #7B61FF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.primarydefbtn:hover{
+    color: white;
+    background-color: #928CAB;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.primarydefbtn:active{
+    color: white;
+    background-color: #23155B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.primarydhoverbtn{
+    color: white;
+    background-color: #928CAB;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.primaryactivebtn{
+    color: white;
+    background-color: #23155B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.secondarydefaultbtn{
+    color: #8053FF;
+    border:1px solid #8053FF; 
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.secondaryhoverbtn{
+    color: #8053FF;
+    border:1px solid #8053FF; 
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.secondaryactivebtn{
+    color: white;
+    background-color: #23155B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.secondarydefaultbtn:hover{
+    color: #8053FF;
+    border:1px solid #8053FF; 
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer; 
+}
+.secondarydefaultbtn:active{
+    color: white;
+    background-color: #23155B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+.headerclass{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+.logoandname{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logoandname:hover{
+    cursor:pointer;
+}
+.sitename{
+    padding-left: 15px;
+}
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+   
+}
+.shadowClass{
+    display: flex; 
+    box-shadow: 0px 15px 10px -15px #111;
+
+}
+.shadowClass:hover{
+    cursor: pointer;
+}
+.joinbtn{
+    padding-left: 100px;
+    padding: 12px 24px;
+}
+.joinbtn:hover{
+    color: white;
+    background-color: #928CAB;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer; 
+}
+.joinbtn:active{
+    color: white;
+    background-color: #23155B;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.pclass:nth-child(1){
+    padding-right:20px;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+.pclass:nth-child(2){
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+.joinbtn{
+    background-color: #7B61FF;
+    padding: 10px 25px;
+    font-size:16px;
+    margin-left: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.joinbtn:hover{
+    cursor:pointer;
+}
+header{
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+/* main section */
+.mainsection{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+h1{
+    font-weight:bolder;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+
+/* companies section */
+.companiessection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.companiessection>p{
+    padding-bottom: 20px;
+    font-size:24px;
+}
+.companyimages{
+    padding-right: 10px;
+    display: flex;
+}
+
+.companiessection:nth-child(5){
+    padding-right: 0;
+}
+/* main section 2 */
+.mainsection2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainsection2h2{
+    width: 500px;
+    font-size: 35px;
+    display: flex;
+    align-items: start;
+    
+}
+span{
+    color: #8053FF;
+}
+.nu{
+    font-size: 30px;
+    padding-right: 10px;
+    font-weight:bold;
+}
+.paraclasses{
+    padding-top: 100px;
+}
+.paraclasses>p{
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+/* project section */
+.projectsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.projectsection>p{
+    font-size: 18px;
+}
+.main2h2p{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    left: -200px;
+}
+.main2h2p>p{
+    position: relative;
+    top: -30px;
+}
+.projectsection::before{
+    content: " - For Proects ";
+    color: #8053FF;
+    font-size: 18px;
+    font-weight:500;
+    position: relative;
+    left:-500px;
+    top: 30px;
+}
+.p2{
+    padding: none;
+}
+.ticks{
+    display: grid;
+    grid-template-columns: 500px 500px ;
+    position: relative;
+    left: -20px;
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+.tickmark{
+    max-width: 40px;
+    padding-right: 15px;
+    top: -5px;
+    position: relative;
+}
+.psec{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 12px 10px -15px black;
+}
+.psec1{
+    display: flex;
+    flex-direction: column;
+}
+.psec1>h4{
+    margin:0;
+    position: relative;
+    top: 0px;
+}
+.psec1>.tickmark5{
+    margin:0;
+    position: relative;
+    top: -5px;
+}
+.psec1>p {
+    margin:0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #928CAB;
+}
+.btnsection{
+    display: flex;
+    position: relative;
+    right:380px;
+    top: 50px;
+    column-gap: 30px;
+}
+
+/* for inverstor section */
+.investorsection{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    padding-left: 200px;
+    margin-bottom: 150px;
+}
+.investorsection::before{
+    content: "- For Investors";
+    color: #8053FF;
+    position: relative;
+    top: 15px;
+}
+.inversotmini{
+    width: 400px;
+}
+.smallpdiv{
+    display: grid;
+    grid-template-columns: 550px 500px;
+    padding-left: 20px;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-bottom: 40px;
+}
+.smallp{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 12px 10px -15px black;
+    padding: 10px;
+}
+p{
+    font-size: 16px;
+}
+.smallp1{
+    position: relative;
+    top:-10px
+}
+
+
+/* photo section */
+
+.photosection{
+    display: flex;
+    column-gap: 200px;
+    margin-bottom: 150px;
+}
+.perpic{
+    max-width: 450px;
+}
+.paradiv{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+    justify-content: center;
+}
+.paradiv>h2 {
+    font-size: 30px;
+}
+.paradiv>p {
+    font-size: 15px;
+}
+.pagelogo{
+    max-width: 50px  ;
+}
+
+/* company section 2 */
+
+.companysection2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:150px;
+}
+
+
+/* contact form */
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: start;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-block: 100px;
+    background-color: #23155B;
+    border-radius: 150px 0 0 0;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: -80px;
+}
+.contactform > h2{
+    font-size: 30px;
+    color: white;
+}
+.contactform >p{
+    position: relative;
+    top: -25px;
+}
+.contactdiv{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows:repeat(2 300px)
+}
+.contactdiv>label{
+    font-size: 7px;
+    font-weight: 200;
+    
+}
+.contdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+.contdiv>input{
+    border-radius: 8px;
+    width: 350px;
+    height: 40px;
+    margin-block: 10px;
+}
+.contdiv>input:active{
+    border:none;
+}
+.sendbtn{
+    margin-top: 50px;
+}
+.pclass1{
+    font-size: 14px;
+}
+.bg{
+    position: relative;
+    top: -650px;
+    left: -200px;
+    opacity: 20%;
+}
+
+
+/* social profile section */
+.socialprofilessection{
+    position: relative;
+    width: 400px;
+    top: -150px;
+    left: 1100px;
+    margin-bottom: none;
+}
+
+.profileimg{
+    max-width: 32px;
+}
+.socialprofiles{
+    display: flex;
+    column-gap: 20px;
+    position: relative;
+}
+.socialprofile2{
+    color: white;
+    display: flex;
+    font-size: 5px;
+    column-gap: 40px;
+}
+.socialprofile2>p{
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
