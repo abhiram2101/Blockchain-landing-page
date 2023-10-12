@@ -5,3 +5,7 @@ You can access this template [here](https://www.figma.com/file/b3RLiEIGOsEmq1dd4
 If you like the series check out other developed designs too.<br>
 
 ![Home](https://github.com/abhiram2101/Blockchain-landing-page/assets/128455624/6a2e363a-3ad0-4c1d-b42d-eacfebcbe91e)
+
+
+https://github.com/abhiram2101/Blockchain-landing-page/assets/128455624/fb5bd350-d4b4-4303-8075-10102625dd71
+
